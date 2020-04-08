@@ -54,6 +54,6 @@ function onMasterFormSubmit(){
    
 
 
-    window.open("https://wa.me/919068194171?text="+msg, '_blank');
+    window.open("https://wa.me/919501079627?text="+msg, '_blank');
 
 }
