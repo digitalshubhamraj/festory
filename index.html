@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d8941cdeaa.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/logo2.jpg" type="image/x-icon">
+    <title>Home</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png" alt="logo" style="width: 6.5rem;">
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end;">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="#quote">Get Quote<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Products</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <button 
+              style="border-radius: 50%;
+                     display: inline-block;
+                     height: 4rem;
+                     width: 4rem;
+                     font-size: 2rem;
+                     background-color:#881dbe;
+                     border:1px #881dbe solid;
+                     position: fixed;
+                     right: 20px;
+                     bottom: 20px;
+                     z-index: 2;
+                      color: white;">
+                      <a href=" https://wa.me/919068194171?text=Hi%20Festory">
+                        <i style="color: white;" class="fa fa-whatsapp" aria-hidden="true"></i>
+                      </a>
+                          
+      </button>
+
+      <section id="quote" style="
+        background:linear-gradient(0deg, rgba(164, 30, 182, 0.233), rgba(98, 5, 126, 0.397)),
+        url(https://images.unsplash.com/photo-1510924199351-4e9d94df18a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80);
+        background-size:cover;">
+        <div class="container">
+            <div class="row">
+    
+              <div class="col-sm-12 col-lg-6 pb-5" style="text-align: center;">
+                <h1 class="centre whiteText mt-5 " style="font-size: 160%;color: white;"><strong>We do things Right</strong></h1>
+                <h5 class="centre mt-1 mt-3" style="color: white;"><strong>One Event - One Shop</strong></h5>
+              </div>
+    
+              <div class="col-sm-12 col-lg-6" style="text-align: center;">
+                <form onsubmit="return false" class="form-width mt-4" style="margin: auto;border-radius: 1%;padding: 2rem;background-color: white;" >
+                  <p style="font-size: 125%;"><strong>Hello, Drop us a line. We will get back to you.</strong></p><br>
+                  <input style="width: 100%;" id="home-form-name" class="pl-2 pt-2 pb-2  mb-2 inputWidth" type="text" name="name" placeholder="Your Name" required><br>     
+                  <!--<input style="width: 100%;" id="home-form-email" class="pl-2 pt-2 pb-2  mb-2 inputWidth" type="email" name="email" placeholder="Email Address" required><br>
+                  <input style="width: 100%;" id="home-form-company" class="pl-2 pt-2 pb-2  mb-2 inputWidth" type="text" name="company" placeholder="Company Name" required><br>-->
+                 <input style="width: 100%;" id="home-form-website" class="pl-2 pt-2 pb-2  mb-2 inputWidth" type="text" name="Comment" placeholder="Requirement" > <br>  
+                    
+
+                  <div style="display: flex;justify-content: flex-end;">
+                      <button onclick="onSubmit()" class="mb-2 p-2 pr-3 pl-3" type="submit" style="border-radius: 5px;background-color:#881dbe;border:1px #881dbe solid; color: white;">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i> Instant Message
+                    </button>
+                  </div>
+                  
+              </form>
+    
+              </div>
+    
+            </div>
+            <hr>
+          </div>
+          
+      </section>
+
+      <section id="services">
+          <div class="container mt-5 ">
+              <h2 style="text-align: center;color:#30084e;">Our Services</h2>
+              <p style="text-align: center;">So many requirements - One stop</p>
+              <div class="row mb-5">
+                  
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="masterform.html">
+                           <i class="fas fa-tshirt" aria-hidden="true"></i><br>
+                            T-shirts &
+                            Hoodies
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="">
+                              <i class="fas fa-print" aria-hidden="true"></i><br>
+                            Banner&
+                            Standee
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="">
+                      <i class="fas fa-file-powerpoint" aria-hidden="true"></i><br>
+
+                            Poster &
+                            Certificates
+                            
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left" style="padding-top: 1rem;">
+                          <a style="color: white;" href="">
+                           <i class="fab fa-galactic-republic" aria-hidden="true"></i><br>
+                            Badges
+                            (Round/Metal)
+                            </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="">
+                          <i class="fas fa-trophy" aria-hidden="true"></i><br>
+                            Momento &
+                            Throphy
+                            </a>
+                        </div>
+                      </div>
+                   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="">
+                               <i class="fas fa-seedling" aria-hidden="true"></i><br>
+                            Plant Momento
+                            </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="">
+                                  <i class="fas fa-user-graduate" aria-hidden="true"></i><br>
+                            Graduation
+                            Caps &
+                            Sashes
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="">
+                                  <i class="fas fa-id-badge" aria-hidden="true"></i><br>
+                            ID Cards
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="">
+                                  <i class="fas fa-glass-cheers" aria-hidden="true"></i><br>
+                            Party
+                            Packages
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="">
+                                  <i class="fas fa-globe" aria-hidden="true"></i><br>
+                            Event
+                            Website
+                            </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="">
+                              <i class="fas fa-mountain" aria-hidden="true"></i><br>
+                            Travel &
+                            Trips
+                          </a>
+                        </div>
+                      </div>
+                  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 product">
+                        <div class="product-inside hvr-underline-from-left">
+                          <a style="color: white;" href="">
+                              <i class="fas fa-compact-disc" aria-hidden="true"></i><br>
+                            Event
+                            Production
+                            & DJ
+                          </a>
+                        </div>
+                      </div>
+
+
+                  
+             
+                  
+                 
+              </div>
+              <hr>
+          </div>
+      </section>
+
+      <section id="testimonial" style="background-color: #30084e;">
+        <div class="container mt-5 pt-5">
+            <h2 style="text-align: center;color:white;">Testimonials</h2>
+            <p style="text-align: center;color: whitesmoke;">So many requirements - One stop</p>
+        </div>   
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide testimonial">
+                    <img class="testimonial-image" src="imgs/nss.png" alt="">
+                    <p style="font-size: 120%;margin-bottom: 0.1rem;">Abhivyakti</p>
+                    <p style="font-size: 78%;margin-bottom: 0.1rem;">Creative writing society</p>
+                    <p style="font-size: 95%;margin-bottom: 0.1rem;"> Ram Lal Anand College</p>
+                    <hr style="background-color: white;">
+                    <p style="font-size: 80%;margin-bottom: 0.1rem;"><i class="fa fa-quote-left" style="font-size: 160%;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea non illum, inventore iure maxime reprehenderit soluta numquam quod quo blanditiis, neque accusamus voluptatibus repellat! Consequuntur iure eaque doloremque ab sit?</p>
+                  </div>
+                  <div class="swiper-slide testimonial">
+                    <img class="testimonial-image" src="imgs/nss.png" alt="">
+                    <p style="font-size: 120%;margin-bottom: 0.1rem;">Abhivyakti</p>
+                    <p style="font-size: 78%;margin-bottom: 0.1rem;">Creative writing society</p>
+                    <p style="font-size: 95%;margin-bottom: 0.1rem;"> Ram Lal Anand College</p>
+                    <hr style="background-color: white;">
+                    <p style="font-size: 80%;margin-bottom: 0.1rem;"><i class="fa fa-quote-left" style="font-size: 160%;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea non illum, inventore iure maxime reprehenderit soluta numquam quod quo blanditiis, neque accusamus voluptatibus repellat! Consequuntur iure eaque doloremque ab sit?</p>
+                  </div>
+                  <div class="swiper-slide testimonial">
+                    <img class="testimonial-image" src="imgs/nss.png" alt="">
+                    <p style="font-size: 120%;margin-bottom: 0.1rem;">Abhivyakti</p>
+                    <p style="font-size: 78%;margin-bottom: 0.1rem;">Creative writing society</p>
+                    <p style="font-size: 95%;margin-bottom: 0.1rem;"> Ram Lal Anand College</p>
+                    <hr style="background-color: white;">
+                    <p style="font-size: 80%;margin-bottom: 0.1rem;"><i class="fa fa-quote-left" style="font-size: 160%;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea non illum, inventore iure maxime reprehenderit soluta numquam quod quo blanditiis, neque accusamus voluptatibus repellat! Consequuntur iure eaque doloremque ab sit?</p>
+                  </div>
+                  <div class="swiper-slide testimonial">
+                    <img class="testimonial-image" src="imgs/nss.png" alt="">
+                    <p style="font-size: 120%;margin-bottom: 0.1rem;">Abhivyakti</p>
+                    <p style="font-size: 78%;margin-bottom: 0.1rem;">Creative writing society</p>
+                    <p style="font-size: 95%;margin-bottom: 0.1rem;"> Ram Lal Anand College</p>
+                    <hr style="background-color: white;">
+                    <p style="font-size: 80%;margin-bottom: 0.1rem;"><i class="fa fa-quote-left" style="font-size: 160%;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea non illum, inventore iure maxime reprehenderit soluta numquam quod quo blanditiis, neque accusamus voluptatibus repellat! Consequuntur iure eaque doloremque ab sit?</p>
+                  </div>
+                  <div class="swiper-slide testimonial">
+                    <img class="testimonial-image" src="imgs/nss.png" alt="">
+                    <p style="font-size: 120%;margin-bottom: 0.1rem;">Abhivyakti</p>
+                    <p style="font-size: 78%;margin-bottom: 0.1rem;">Creative writing society</p>
+                    <p style="font-size: 95%;margin-bottom: 0.1rem;"> Ram Lal Anand College</p>
+                    <hr style="background-color: white;">
+                    <p style="font-size: 80%;margin-bottom: 0.1rem;"><i class="fa fa-quote-left" style="font-size: 160%;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea non illum, inventore iure maxime reprehenderit soluta numquam quod quo blanditiis, neque accusamus voluptatibus repellat! Consequuntur iure eaque doloremque ab sit?</p>
+                  </div>
+                  <div class="swiper-slide testimonial">
+                    <img class="testimonial-image" src="imgs/nss.png" alt="">
+                    <p style="font-size: 120%;margin-bottom: 0.1rem;">Abhivyakti</p>
+                    <p style="font-size: 78%;margin-bottom: 0.1rem;">Creative writing society</p>
+                    <p style="font-size: 95%;margin-bottom: 0.1rem;"> Ram Lal Anand College</p>
+                    <hr style="background-color: white;">
+                    <p style="font-size: 80%;margin-bottom: 0.1rem;"><i class="fa fa-quote-left" style="font-size: 160%;"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea non illum, inventore iure maxime reprehenderit soluta numquam quod quo blanditiis, neque accusamus voluptatibus repellat! Consequuntur iure eaque doloremque ab sit?</p>
+                  </div>
+             
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+      </section>
+
+      <section id="product">
+        <div class="container mt-5 pt-5">
+            <h2 style="text-align: center;color:#30084e">Products</h2>
+            <p style="text-align: center;">So many requirements - One stop</p>
+        </div>
+          <div class="container pb-5 mb-5">
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100 carousel-image" src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 carousel-image" src="https://images.unsplash.com/photo-1566107222733-864261c6ae3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 carousel-image" src="https://images.unsplash.com/photo-1530286910461-6a1960d1e83a?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+
+          </div>
+        
+      </section>
+
+    <section>
+
+        
+            
+                
+                    <div class="pt-1" style="
+                                            width: 100%;
+                                            height: 3rem;
+                                            background-color: #30084e;
+                                            color: white!important;
+                                            text-align: center;">
+                        &copy; 2020 Copyrighted.
+
+                        <div style="background-color: #30084e;">
+                            <a style="color: white!important;font-size: 1.5rem;" href="#quote"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a style="color: white!important;font-size: 1.5rem;" href="#quote"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        </div>
+                        
+                    </div>
+                
+                
+           
+        
+
+        
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          loop:true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+      <script src="js/script.js"></script>
+</body>
+</html>

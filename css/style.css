@@ -1,0 +1,117 @@
+*{
+    font-family: 'Julius Sans One', sans-serif ;
+    scroll-behavior: smooth;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-color: white;
+}
+
+.bg-light{
+    background:#30084e!important;
+}
+
+.navbar-light .navbar-brand,.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+
+
+.product{
+    
+    padding: .6rem;
+    color: white;
+    width: 50%;
+}
+
+.product-inside{
+    border-radius: 4px;
+    background-color: #30084e;
+    height: 6rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+
+}
+
+.hvr-underline-from-left {
+    display: block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .testimonial{
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    height: 55vh;
+    margin-left: 6%;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    color: #30084e;
+    text-overflow: ellipsis;
+    padding: 2%;
+
+}
+
+.testimonial-image{
+    display: inline-block;
+    height: 26%;
+    border: 2px solid white;
+    /* padding: -1rem; */
+    border-radius: 50%;
+    /* margin-left: 32%; */
+    margin-top: 2%;
+}
+
+.carousel-image{
+    height: 75vh;
+    display: inline-block;
+}
+
+@media(max-width:800px){
+    .carousel-image{
+        height: 40vh;
+        display: inline-block;
+    }
+}
+
+  
