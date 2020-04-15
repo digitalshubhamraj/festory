@@ -80,7 +80,7 @@
 
   .testimonial{
     /* border: 1px solid black; */
-    border-radius: 15px;
+    border-radius: 7px;
     height: 55vh;
     margin-left: 6%;
     text-align: center;
@@ -94,7 +94,7 @@
 
 .testimonial-image{
     display: inline-block;
-    height: 26%;
+    height: 50%;
     border: 2px solid white;
     /* padding: -1rem; */
     border-radius: 50%;
