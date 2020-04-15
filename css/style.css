@@ -19,6 +19,17 @@
     text-decoration: underline;
 }
 
+.frame-area {
+  display: block;
+  width: 100%;  /* RESPONSIVE WIDTH */
+  max-width: 1000px;
+  height: 800px;
+  aling: center;
+  overflow: auto;  /* EDIT TO hidden FOR NO SCROLLBAR */
+  border: #999999 1px solid;
+  margin: 0px;
+  padding: 0px;
+  }
 
 .product{
     
