@@ -4,7 +4,7 @@
 }
 
 .navbar-light .navbar-toggler-icon{
-    background-color: 30084e;
+    background-color:#30084e;
 }
 
 .bg-light{
@@ -12,7 +12,7 @@
 }
 
 .navbar-light .navbar-brand,.navbar-light .navbar-nav .nav-link {
-    color: white!important;
+    color:#30084e!important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
