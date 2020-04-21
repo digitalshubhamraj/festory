@@ -103,6 +103,20 @@
 
 }
 
+.Productslide{
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    height: 55vh;
+    margin-left: 6%;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    color: white;
+    text-overflow: ellipsis;
+    padding: 2%;
+
+}
+
 .testimonial-image{
     display: inline-block;
     height: 26%;
